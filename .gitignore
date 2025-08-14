@@ -137,3 +137,13 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+/tmp
+/out-tsc
+
+/node_modules
+/.pnp
+.pnp.js
+
+.vscode/*
+.idea/*

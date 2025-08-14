@@ -1,0 +1,24 @@
+{
+  "name": "library-itch-protocol-analysis",
+  "version": "0.0.0",
+  "description": "《图书馆挠痒大作战》Server API protocol analysis",
+  "author": "Sn0wo2",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Sn0wo2/library-itch-protocol-analysis"
+  },
+  "bugs": {
+    "url": "https://github.com/Sn0wo2/library-itch-protocol-analysis/issues"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "typescript": "^5.9.2",
+    "@types/node": "^24.2.1"
+  }
+}
