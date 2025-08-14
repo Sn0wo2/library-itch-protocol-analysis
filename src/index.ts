@@ -22,8 +22,8 @@ interface Body {
 }
 
 const config: Config = {
-    score: parseInt(process.env.SCORE || process.argv[2] || '23456.789', 10),
-    nickname: process.env.NICKNAME || process.argv[3] || `DeepSuck-${Math.floor(Math.random() * 9e8) + 1e8}`,
+    score: parseInt(process.env.SCORE || process.argv[2] || '234', 10),
+    nickname: process.env.NICKNAME || process.argv[3] || `Hello-${Math.floor(Math.random() * 9e3) + 1e3}`,
     deviceId: process.env.DEVICE_ID || process.argv[4] || `${Math.floor(Math.random() * 9e8) + 1e8}`,
     apiHost: process.env.API_HOST || 'https://api.xiaommx.cn',
     startPath: '/no-use/library-itch/start-session',
